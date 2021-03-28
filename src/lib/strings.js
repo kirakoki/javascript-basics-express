@@ -1,17 +1,17 @@
 const sayHello = string => {
-return `Hello, ${string}!`;
+  return `Hello, ${string}!`;
 };
 
-const uppercase = string => { 
+const uppercase = string => {
   return string.toUpperCase();
 };
 
 const lowercase = string => {
- return string.toLowerCase();
+  return string.toLowerCase();
 };
 
 const countCharacters = string => {
- return string.length;
+  return string.length;
 };
 
 const firstCharacter = string => {
@@ -19,7 +19,7 @@ const firstCharacter = string => {
 };
 
 const firstCharacters = (string, n) => {
- return string.substring(0, n);
+  return string.substring(0, n);
 };
 
 module.exports = {
@@ -28,5 +28,5 @@ module.exports = {
   lowercase,
   countCharacters,
   firstCharacter,
-  firstCharacters
+  firstCharacters,
 };
